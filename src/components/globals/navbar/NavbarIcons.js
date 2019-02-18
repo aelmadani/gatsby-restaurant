@@ -4,6 +4,7 @@ import { styles } from '../../../utils'
 import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
 
 export default class NavbarIcons extends Component {
+  // the 3 SoMe icon details are put in the state.
   state = {
     icons: [
       {
@@ -23,6 +24,7 @@ export default class NavbarIcons extends Component {
       },
     ],
   }
+  // conent of Navbaricons is the 3 SoMe icons.
   render() {
     return (
       <IconWrapper>

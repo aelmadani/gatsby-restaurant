@@ -1,0 +1,6 @@
+
+
+1) In Navbaricons.js: Why is icon id, name and path defined state? Why not as a const?
+
+
+Extentions: vscode-styled-components

@@ -8,7 +8,9 @@ import { styles } from '../../../utils'
 export default class NavbarHeader extends Component {
   render() {
     const { handleNavbar } = this.props
-
+    // contains of:
+    // 1) Logo with link to home
+    // 2) Navbar icon
     return (
       <HeaderWrapper>
         <Link to="/">
